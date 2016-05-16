@@ -11,3 +11,19 @@ class Author(models.Model):
 
     def __unicode__(self):
         return self.name
+
+class Entry(models.Model):
+
+    authors = select2.fields.ManyToManyField(Author,
+                                             through='EntryAuthors',
+                                             sort_field='position')
+
+
+class EntryAuthors(select2.models.SortableThroughModel):
+
+    author = models.ForeignKey(Author)
+    entry = models.ForeignKey(Entry)
+    position = models.PositiveSmallIntegerField()
+
+    class Meta:
+        ordering = ['position']
