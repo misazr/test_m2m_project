@@ -37,6 +37,8 @@ INSTALLED_APPS = (
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'apptest',
+    'select2',
 )
 
 MIDDLEWARE_CLASSES = (
@@ -100,3 +102,7 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/1.8/howto/static-files/
 
 STATIC_URL = '/static/'
+
+SITE_ROOT = os.path.realpath(os.path.dirname(__file__))
+
+STATIC_ROOT = SITE_ROOT+'/static/'
