@@ -68,7 +68,7 @@ towel==0.7.0
 traceback2==1.4.0
 Unidecode==0.4.19
 unittest2==1.1.0
-urllib3==1.10.4
+urllib3==1.26.5
 virtualenv==13.1.2
 wheel==0.24.0
 xhtml2pdf==0.0.6
