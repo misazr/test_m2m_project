@@ -45,7 +45,7 @@ Fabric==1.10.2
 html5lib==0.999999
 keyring==8.7
 linecache2==1.0.0
-lxml==3.6.0
+lxml==4.6.5
 migrate==0.3.7
 MySQL-python==1.2.4
 paramiko==1.16.0
