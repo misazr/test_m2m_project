@@ -54,7 +54,7 @@ Pillow==2.8.2
 psycopg2==2.6.1
 pycrypto==2.6.1
 PyMySQL==0.6.6
-PyPDF2==1.25.1
+PyPDF2==1.27.5
 python-gettext==2.1
 pytz==2015.4
 pywin32-ctypes==0.0.1
