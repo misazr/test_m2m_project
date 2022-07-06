@@ -42,7 +42,7 @@ easy-thumbnails==2.3
 ecdsa==0.13
 elasticsearch==1.6.0
 Fabric==1.10.2
-html5lib==0.999999
+html5lib==0.999999999
 keyring==8.7
 linecache2==1.0.0
 lxml==3.6.0
